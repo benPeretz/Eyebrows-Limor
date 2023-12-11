@@ -7,6 +7,277 @@
   pointer-events: none;
 }
 
+
+.navbar{
+  background-color:#000000 ;
+}
+/* .navbar-scrolled a{
+  color: #000000;
+} */
+
+.white a{
+  color: #fff;
+}
+.dropdown-menu{
+  --bs-dropdown-bg: #9d7676;
+}
+
+.bg-body-secondary{
+  background-color: #e1d2d2db!important;
+}
+.navbar-nav{
+  --bs-nav-link-hover-color:#e1a3a3;
+}
+
+.section-top {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../public/img/pexels-antoni-shkraba-5178051.jpg");
+  height: 35rem;
+  background-position: center;
+  background-size: cover;
+ 
+  text-align: center;
+
+}
+.btn-outline-light{
+  --bs-btn-color: #8c959d;
+  --bs-btn-border-color: #8c959d;
+  --bs-btn-hover-bg: #8c959d;
+}
+
+.text-title h1 {
+  /* font-family: 'Martian Mono', monospace; */
+  /* font-family: 'Young Serif', serif; */
+  font-family: 'Varela Round', sans-serif;
+  font-size: 5rem;
+
+  letter-spacing: 0.5rem;
+  background: linear-gradient(rgb(230, 228, 228), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+}
+
+.div-text-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.section-top button{
+  padding: 3px 7rem;
+  top: 30%;
+  position: relative;
+  
+}
+
+.div-our-eyebrow-flex{
+  display: flex;
+}
+
+.our-eyebrows img{
+  width: 200px;
+  height: 250px;
+  float: left;
+  margin-right: 20px;
+}
+.col-our-brow-img{
+
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+.col-our-brow-p{
+  flex: 1;
+  display: flex;
+}
+.our-eyebrows p{
+  width: 50%;
+  font-size: 17px;
+  margin-left: 15px;
+}
+
+.card img{
+  width: 100%; /* רוחב התמונה */
+  height: 200px; /* גובה התמונה */
+  object-fit: cover;
+}
+
+.btn-secondary{
+  --bs-btn-bg: #000000;
+
+}
+
+.path-to-next{
+
+
+  width: 45%;
+  
+}
+.carousel-inner{
+  width: 18rem;
+  height: 25rem;
+ 
+}
+.card-body{
+  text-align: center;
+}
+
+
+
+.footer{
+  background: linear-gradient(300deg, #00bfff, #c90095, #000000);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color: white;
+}
+.contact-us{
+  width: 50%;
+}
+.icons {
+  font-size: 2rem;
+}
+
+.footer h4{
+  font-size: 15px;
+}
+
+.col-course{
+ flex: 1;
+ width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+.explain-container{
+  margin-top: 8rem;
+  width: 50%;
+}
+
+.img-explain{
+  width:30rem;
+  height: 30rem;
+  object-fit: cover;
+}
+.right-bullets{
+  direction: rtl;
+}
+
+
+
+@media (max-width:770px) and (min-width:200px){
+
+
+  .col-our-brow-img{
+
+      flex: none;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+  .col-our-brow-p{
+      flex: none;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+  .div-our-eyebrow-flex{
+      flex-wrap: wrap-reverse;
+  }
+
+  .our-eyebrows img{
+      margin-top: 12px;
+  }
+
+
+  .col-course{
+      width: 80%;
+      flex: none;
+  }
+
+  .path-to-next{
+
+      margin-top: 10px;
+      width: 100%;
+      
+  }
+
+
+
+}
+
+@media (max-width:700px) and (min-width:200px){
+
+
+  .section-top{
+      height: 18rem;
+     
+
+  }
+
+  .text-title h1{
+      font-size: 3rem;
+  }
+  .div-text-title{
+      flex-direction: column;
+      padding-top: 5rem;
+      margin-bottom: 1rem;
+      height: auto;
+  }
+  .section-top button{
+      top: 0;
+  }
+  .explain-container{
+      margin-top: 6rem;
+      width: 75%;
+  }
+}
+
+@media (max-width:500px) and (min-width:200px){
+
+  .our-eyebrows img{
+      width: 120px;
+      height: 140px;
+  }
+
+  .our-eyebrows p {
+      width: 80%;
+      font-size: 13px;
+      margin-left: 0px;
+  }
+
+  .carousel {
+      
+      width: 75%;
+  }
+
+  .contact-us{
+      width: 80%;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +307,5 @@
     transform: rotate(360deg);
   }
 }
+
+
